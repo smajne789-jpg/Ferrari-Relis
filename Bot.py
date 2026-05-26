@@ -1,5 +1,3 @@
-Ferrari Dice — bot.py
-
 import asyncio
 import logging
 import random
@@ -539,42 +537,3 @@ async def main():
     await dp.start_polling(bot)
 if __name__ == "__main__":
     asyncio.run(main())
-
-Установка
-
-pip install aiogram aiocryptopay
-
-Переменные окружения (Bothost.ru)
-
-Создай переменные:
-
-BOT_TOKEN=токен_бота
-ADMIN_ID=твой_telegram_id
-CRYPTOBOT_TOKEN=токен_cryptobot
-
-Установка
-
-pip install aiogram aiocryptopay
-
-Запуск
-
-python bot.py
-
-Что уже есть
-
-✅ PvP Dice игры
-✅ Fake Online
-✅ Красивое меню ✅ Профиль ✅ Пополнение через CryptoBot ✅ Вывод заявками ✅ Поддержка ✅ Dice x0-x4 ✅ Произведение >18 ✅ Чеки ✅ Депозитные чеки ✅ Админка ✅ Топ игроков ✅ SQLite база ✅ Анти-двойная активация чеков
-
-Что можно потом добавить
-
-* Рефералка
-* PvP игры
-* Джекпот комната
-* Crash game
-* Рулетка
-* Fake online
-* Логи в канал
-* Web admin panel
-* Postgres
-* Docker
